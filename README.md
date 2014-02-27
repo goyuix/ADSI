@@ -1,4 +1,5 @@
-![Tree Logo](https://github.com/goyuix/ADSI/raw/master/master/swirly_tree_thanks_kate_england.png) ADSI Managed Wrapper
+![Tree Logo](https://raw.github.com/goyuix/ADSI/master/swirly_tree_thanks_kate_england.png) 
+ADSI Managed Wrapper
 ====================
 
 Why does this library exist?

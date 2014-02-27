@@ -8,7 +8,7 @@
     <owners>$author$</owners>
     <licenseUrl>http://mit-license.org/</licenseUrl>
     <projectUrl>https://github.com/goyuix/ADSI</projectUrl>
-    <iconUrl>https://github.com/goyuix/ADSI/raw/master/master/swirly_tree_thanks_kate_england.png</iconUrl>
+    <iconUrl>https://raw.github.com/goyuix/ADSI/master/swirly_tree_thanks_kate_england.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Initial 0.1.0 release with support only for NameTranslate.</releaseNotes>
