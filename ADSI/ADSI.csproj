@@ -44,7 +44,7 @@
     <None Include="ADSI.nuspec">
       <SubType>Designer</SubType>
     </None>
-    <None Include="linqpad-samples\ADSI Sample.linq" />
+    <None Include="linqpad-samples\Translate Sample.linq" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

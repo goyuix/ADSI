@@ -15,4 +15,7 @@
     <copyright>Copyright 2014</copyright>
     <tags>ADSI AD Active Directory COM DLR dynamic C# NameTranslate linqpad-samples</tags>
   </metadata>
+  <files>
+    <file src="linqpad-samples\**" target="linqpad-samples" />
+  </files>
 </package>
