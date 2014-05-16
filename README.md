@@ -4,12 +4,24 @@ ADSI Managed Wrapper
 
 Why does this library exist?
 ----------------------------
-There is an incompatibility between the ADSI COM interfaces and the DLR that prevents using the `dynamic` keyword. 
+There is an incompatibility between the 
+<a href="http://msdn.microsoft.com/en-us/library/aa772218.aspx">ADSI COM</a> 
+interfaces and the DLR that prevents using the `dynamic` keyword. 
 More information is available at the following Stack Overflow question: <a href="http://stackoverflow.com/questions/20961698/why-does-dynamic-method-invoke-fail-when-reflection-still-works">Why does dynamic method invoke fail when reflection still works?</a>
 
 What does this library provide?
 -------------------------------
-This package provides a managed implementation to the various ADSI enumerations, interfaces and objects. It also provides some convenient overrides for the methods to allow the default ADSI behaviors without having to explicitly specify those parameters.
+This package provides a managed implementation to the various ADSI
+<a href="http://msdn.microsoft.com/en-us/library/aa772192.aspx">Data Types and Constants</a>, 
+<a href="http://msdn.microsoft.com/en-us/library/aa772234.aspx">Structures</a>,
+<a href="http://msdn.microsoft.com/en-us/library/aa772194.aspx">Enumerations</a>,
+<a href="http://msdn.microsoft.com/en-us/library/aa772201.aspx">Functions</a>,
+<a href="http://msdn.microsoft.com/en-us/library/aa772202.aspx">Interfaces</a>,
+<a href="http://msdn.microsoft.com/en-us/library/aa772235.aspx">System Providers</a>,
+<a href="http://msdn.microsoft.com/en-us/library/aa772195.aspx">Error Codes</a>,
+<a href="http://msdn.microsoft.com/en-us/library/aa772197.aspx">and Extended Error Messages</a>
+It also provides some convenient overrides for the methods to allow the default ADSI behaviors without having to explicitly specify those parameters.
+Currently the library targets .NET 2.0 and has been tested and used with the 4.0 framework without issues.
 
 Example Usage
 -------------
