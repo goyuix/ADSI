@@ -10,8 +10,8 @@ namespace ADSI.Utility
     /// <remarks>Name translations are performed on the directory server.</remarks>
     public class NameTranslate
     {
-        protected static Type nameTranslateType = Type.GetTypeFromProgID("NameTranslate");
-        protected object nameTranslateObject = null;
+        private static Type nameTranslateType = Type.GetTypeFromProgID("NameTranslate");
+        private object nameTranslateObject = null;
 
         /// <summary>
         /// Provides an interface to translate between different <see cref="ADS_NAME_TYPE">ADS_NAME_TYPE_ENUM</see> formats.

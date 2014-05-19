@@ -5,7 +5,7 @@ using System.Text;
 namespace ADSI.Enum
 {
     /// <summary>
-    /// Specifies the types of initialization to perform on a <see cref="NameTranslate">NameTranslate</see> object
+    /// Specifies the types of initialization to perform on a <see cref="ADSI.Utility.NameTranslate">NameTranslate</see> object
     /// </summary>
     public enum ADS_NAME_INITTYPE
     {
